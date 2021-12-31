@@ -131,7 +131,7 @@ const TabNavigator = () => {
                     }}        
                 />
                 <Tabs.Screen name='Agregar'
-                    component={user!= null ? AddItem : User}
+                    component={user!= null ? AddItem : AddItem} //por ahora no hay que logearse
                     options={{
                         tabBarIcon: ({ focused }) => (
                             <View>
